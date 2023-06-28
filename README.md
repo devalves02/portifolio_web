@@ -1,3 +1,3 @@
 # portifolio_web
 
-meu portifolio pessoal(em progresso constante)
+meu portifolio pessoal,em progresso constante

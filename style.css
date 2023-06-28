@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome{
+    font-family: monospace;
+    background-color: orange;
+    text-align: center;
+    
+}
+
+.sobre-mim p{
+    font-size: 20px;
+
+}
+
+
+
+.menu{
+    background-color: orange;
+    
+}
+.menu li {
+   font-size: 19px;
+}
+
+.menu li a{
+    
+    color: black;
+    
+}
+
+.skill{
+    background-color: orange;
+}
+
+.skill ul li{
+    font-size: 20px;
+}
+
+
+.link_2 a{
+ 
+    color: black;
+   
+}
+
+.link_3{
+  
+   background-color: orange;
+}
+
+
+
+
+
