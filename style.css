@@ -1,66 +1,191 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+   
+    
     
 }
 
 .Indice{
-    position: relative;
-    background-color: orange;
-    top: -17px;
     
-    
-}
-
-.nome{
-    font-family: monospace;
    
-    text-align: center;
+    background-color: orange;
+    top: -21px;
     
-}
-
-.sobre-mim p{
-    font-size: 20px;
-
+    
+    
 }
 
 .menu{
     list-style: none;
-    display: block;
+    padding-bottom: 45px;
+    text-align: right;
+    margin-top: 0px;
+   
+    
+    
+   
 }
 
 
 .menu li {
-   font-size: 19px;
+    position: relative;
+   font-size: 14px;
+   display: inline-block;
+   font-size: 22px;
+   letter-spacing: 1px;
+   padding-left: 45px;
+   top: 20px;
+   right: 5px;
+   
+   
+   
+   
+
 }
 
 .menu li a{
+   
+    color: white;
+    text-decoration: none;
+      
+}
+
+.menu li a:hover{
+   
+    color: white;
     
-    color: black;
+      
+}
+
+
+
+
+
+
+.nome{
+    font-family: monospace;
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 500px;
+    
+
+
+
+    
+}
+
+.sobre-mim{
+    margin-top: 260px;
+    max-width: 100%;
+    
+    padding-top: 70px;
+    padding-bottom: 50px;
+    
+}
+
+.sobre-mim img{
+    float: left;
+    background-color: burlywood;
+    padding: 2px;
+    position: absolute;
+    left: 7px;
+    top: 170px;
+    width: 249px;
+    
+}
+
+.sobre-mim h2{
+    position: absolute;
+    font-size: 35px;
+    left: 280px;
+    top: 150px;
+    
+    
+
+
+}
+
+.sobre-mim p{
+    position: absolute;
+   
+    font-size: 25px;
+    left: 270px;
+    top: 210px;
+    
     
 }
 
 .skill{
+    
     background-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skill h2{
+    
+    font-size: 35px;
+    left: 20px;
+    
 }
 
 .skill ul li{
-    font-size: 20px;
+    font-size: 30px;
+}
+.li-impar{
+    font-family: monospace;
+
+    
 }
 
+.link_2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.link_2 h2{
+    font-size: 35px;
+
+}
 
 .link_2 a{
- 
+    transition: color 0.5s ease;
+
+    font-size: 25px;
+    
+
     color: black;
    
 }
 
-.link_3{
-  
-   background-color: orange;
+.link_2 a:hover{
+  color: orangered;
+   
 }
 
+.link_3{
+  padding-top: 20px;
+   background-color: orange;
+   
+}
+
+.link_linkedin{
+    width: 30px;
+    cursor: pointer;
+}
+
+.link_git{
+    width: 30px;
+    cursor: pointer;
+}
+
+.minha_foto{
+    width: 30px;
+    cursor: pointer;
+}
 
 
 
