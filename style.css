@@ -1,211 +1,143 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-   
-    
-    
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Estilos para telas grandes */
-@media screen and (min-width: 768px) {
-    /* Adicione aqui os estilos para telas maiores que 768px */
-    
-    /* Exemplo: ajustar o tamanho do texto */
-    .sobre-mim h2 {
-      font-size: 40px;
-    }
-    
-    /* Exemplo: ajustar o posicionamento do elemento */
-    .sobre-mim p {
-      left: 300px;
-      top: 230px;
-    }
-  }
-  
-  /* Estilos para telas médias */
-  @media screen and (max-width: 767px) {
-    /* Adicione aqui os estilos para telas menores ou iguais a 767px */
-    
-    /* Exemplo: ajustar o tamanho do texto */
-    .sobre-mim h2 {
-      font-size: 30px;
-    }
-    
-    /* Exemplo: ajustar o posicionamento do elemento */
-    .sobre-mim p {
-      left: 270px;
-      top: 190px;
-    }
-  }
-  
-  /* Estilos para telas pequenas */
-  @media screen and (max-width: 480px) {
-    /* Adicione aqui os estilos para telas menores ou iguais a 480px */
-    
-    /* Exemplo: ajustar o tamanho do texto */
-    .sobre-mim h2 {
-      font-size: 25px;
-    }
-    
-    /* Exemplo: ajustar o posicionamento do elemento */
-    .sobre-mim p {
-      left: 250px;
-      top: 170px;
-    }
-  }
 
 .Indice{
-    
-   
     background-color: orange;
-    top: -21px;
-    
-    
-    
-}
-
-.menu{
-    list-style: none;
-    padding-bottom: 45px;
-    text-align: right;
-    margin-top: 0px;
-   
-    
-    
-   
-}
-
-
-.menu li {
-    position: relative;
-   font-size: 14px;
-   display: inline-block;
-   font-size: 22px;
-   letter-spacing: 1px;
-   padding-left: 45px;
-   top: 20px;
-   right: 5px;
-   
-   
-   
-   
-
-}
-
-.menu li a{
-   
-    color: white;
-    text-decoration: none;
-      
-}
-
-.menu li a:hover{
-   
-    color: white;
-    
-      
-}
-
-
-
-
-
-
-.nome{
-    font-family: monospace;
-    position: absolute;
+    border: 2px solid black;
+    padding-top: 10px;
+    font-size: large;
     text-align: center;
-    top: 70px;
-    left: 500px;
-    
-
-
-
-    
 }
 
-.sobre-mim{
-    margin-top: 260px;
-    max-width: 100%;
-    
-    padding-top: 70px;
-    padding-bottom: 70px;
-   
-    
-}
 
-.sobre-mim img{
-    float: left;
-    background-color: burlywood;
-    padding: 2px;
-    position: absolute;
-    left: 7px;
-    top: 170px;
-    width: 249px;
-    
-}
 
-.sobre-mim h2{
-    position: absolute;
+  
+  .nome {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: white;
+    text-align: left;
+
+  }
+
+  .descrição strong a {
+    
+    color: green;
+  }
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    background-color: orangered;
+    
+    
+    
+    margin-top: 0px
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease;
+  }
+
+
+  
+  .menu li a:hover {
+    color: white;
+  }
+
+.Indice h1{
+  font-size: 20px;
+}
+.about h2{
     font-size: 35px;
-    left: 280px;
-    top: 150px;
-    
-    
-
-
 }
-
-.sobre-mim p{
-    position: absolute;
-   
+.about p{
     font-size: 25px;
-    left: 270px;
-    top: 210px;
-    
-    
 }
-
-.skill{
-    
+.about p img{
+    width: 240px;
+    border: 7px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 20px;
+}
+.skill{ 
     background-color: orange;
     padding-top: 50px;
     padding-bottom: 50px;
+    border: 2px solid black;
+    margin-top: 50px;
 }
-
-.skill h2{
-    
-    font-size: 35px;
-    left: 20px;
-    
-}
-
-.skill ul li{
+.skill h2{   
     font-size: 30px;
+    left: 20px;   
+}
+.skill ul li{
+    font-size: 25px;
+    transition: color 0.5s ease;
+}
+.skill ul li:hover{
+    color: white;
 }
 .li-impar{
-    font-family: monospace;
-
-    
+    font-family: monospace;   
 }
-
 .link_2{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .link_2 h2{
     font-size: 35px;
-
 }
 
-.link_2 a{
+.link_2 h3{
+    font-size: 30px;
+}
+
+
+.link_2 li{
     transition: color 0.5s ease;
-
     font-size: 25px;
-    
+    color: black;
+}
 
+
+.link_2 li:hover{
+    color: orangered;
+     
+  }
+
+
+
+
+
+
+.link_2 a{
+   transition: color 0.5s ease;
+    font-size: 25px;
     color: black;
    
 }
@@ -216,26 +148,23 @@ body{
 }
 
 .link_3{
-  padding-top: 20px;
-   background-color: orange;
-   
-}
-
-.link_linkedin{
-    width: 30px;
-    cursor: pointer;
-}
-
-.link_git{
-    width: 30px;
-    cursor: pointer;
-}
-
-.minha_foto{
-    width: 30px;
-    cursor: pointer;
-}
-
-
-
-
+    padding-top: 10px;
+     background-color: orange;
+     border: 2px solid black;
+     
+     
+  }
+  
+  .link_3 p{
+    text-align: right;
+  }
+  
+  .link_linkedin{
+      width: 30px;
+      cursor: pointer;
+  }
+  
+  .link_git{
+      width: 30px;
+      cursor: pointer;
+  }
