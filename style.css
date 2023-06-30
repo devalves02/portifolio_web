@@ -1,56 +1,172 @@
 body{
+    margin: 0;
+    padding: 0;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nome{
-    font-family: monospace;
+.Indice{
     background-color: orange;
+    border: 2px solid black;
+    padding-top: 10px;
+    font-size: large;
     text-align: center;
+}
+
+
+
+  
+  .nome {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    color: white;
+    text-align: left;
+
+  }
+
+  .descrição strong a {
     
-}
-
-.sobre-mim p{
-    font-size: 20px;
-
-}
+    color: green;
+  }
 
 
-
-.menu{
-    background-color: orange;
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    background-color: orangered;
     
-}
-.menu li {
-   font-size: 19px;
-}
-
-.menu li a{
     
+    
+    margin-top: 0px
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
     color: black;
-    
-}
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s ease;
+  }
 
-.skill{
+
+  
+  .menu li a:hover {
+    color: white;
+  }
+
+.Indice h1{
+  font-size: 20px;
+}
+.about h2{
+    font-size: 35px;
+}
+.about p{
+    font-size: 25px;
+}
+.about p img{
+    width: 240px;
+    border: 7px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 20px;
+}
+.skill{ 
     background-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+.skill h2{   
+    font-size: 30px;
+    left: 20px;   
+}
+.skill ul li{
+    font-size: 25px;
+    transition: color 0.5s ease;
+}
+.skill ul li:hover{
+    color: white;
+}
+.li-impar{
+    font-family: monospace;   
+}
+.link_2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.skill ul li{
-    font-size: 20px;
+.link_2 h2{
+    font-size: 35px;
 }
+
+.link_2 h3{
+    font-size: 30px;
+}
+
+
+.link_2 li{
+    transition: color 0.5s ease;
+    font-size: 25px;
+    color: black;
+}
+
+
+.link_2 li:hover{
+    color: orangered;
+     
+  }
+
+
+
+
 
 
 .link_2 a{
- 
+   transition: color 0.5s ease;
+    font-size: 25px;
     color: black;
    
 }
 
-.link_3{
-  
-   background-color: orange;
+.link_2 a:hover{
+  color: orangered;
+   
 }
 
+.link_3{
+    padding-top: 10px;
+     background-color: orange;
+     border: 2px solid black;
+     
+     
+  }
+  
+  .link_3 p{
+    text-align: right;
+  }
+  
+  .link_linkedin{
+      width: 30px;
+      cursor: pointer;
+  }
+  
+  .link_git{
+      width: 30px;
+      cursor: pointer;
+  }
 
-
-
-
+  
