@@ -7,6 +7,54 @@ body{
     
 }
 
+/* Estilos para telas grandes */
+@media screen and (min-width: 768px) {
+    /* Adicione aqui os estilos para telas maiores que 768px */
+    
+    /* Exemplo: ajustar o tamanho do texto */
+    .sobre-mim h2 {
+      font-size: 40px;
+    }
+    
+    /* Exemplo: ajustar o posicionamento do elemento */
+    .sobre-mim p {
+      left: 300px;
+      top: 230px;
+    }
+  }
+  
+  /* Estilos para telas médias */
+  @media screen and (max-width: 767px) {
+    /* Adicione aqui os estilos para telas menores ou iguais a 767px */
+    
+    /* Exemplo: ajustar o tamanho do texto */
+    .sobre-mim h2 {
+      font-size: 30px;
+    }
+    
+    /* Exemplo: ajustar o posicionamento do elemento */
+    .sobre-mim p {
+      left: 270px;
+      top: 190px;
+    }
+  }
+  
+  /* Estilos para telas pequenas */
+  @media screen and (max-width: 480px) {
+    /* Adicione aqui os estilos para telas menores ou iguais a 480px */
+    
+    /* Exemplo: ajustar o tamanho do texto */
+    .sobre-mim h2 {
+      font-size: 25px;
+    }
+    
+    /* Exemplo: ajustar o posicionamento do elemento */
+    .sobre-mim p {
+      left: 250px;
+      top: 170px;
+    }
+  }
+
 .Indice{
     
    
